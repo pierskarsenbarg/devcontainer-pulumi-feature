@@ -1,0 +1,13 @@
+{
+    "id": "pulumi",
+    "version": "0.0.1",
+    "name": "Pulumi",
+    "description": "Install the Pulumi CLI in your devcontainer",
+    "options": {
+        "pulumiVersion": {
+            "type": "string",
+            "default": "",
+            "description": "Install a specific version of the CLI. Default is latest"
+        }
+    }
+}

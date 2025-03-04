@@ -15,6 +15,10 @@ echo "The effective dev container containerUser's home directory is '$_CONTAINER
 
 echo "PULUMI_HOME is '$PULUMI_HOME'"
 
+echo "Installing dependencies..."
+
+apt-get install curl -y
+
 echo "Installing Pulumi..."
 
 if [[ -z "${PULUMIVERSION}"]]; then

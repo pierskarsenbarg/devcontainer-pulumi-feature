@@ -32,5 +32,6 @@ echo "Pulumi Installed..."
 
 cp /root/.pulumi/bin/* /usr/bin
 
-echo "PATH=/root/.pulumi/bin:$PATH" >> /etc/profile
-exec $SHELL
+export PATH=/root/.pulumi/bin:$PATH
+
+# exec $SHELL

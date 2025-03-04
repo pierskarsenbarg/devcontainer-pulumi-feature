@@ -1,9 +1,9 @@
 {
-    "hello": {
+    "pulumi": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "hello": {
-                "greeting": "hello"
+            "pulumi": {
+                "pulumiversion": "v3.150.0"
             }
         }
     }

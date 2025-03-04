@@ -1,12 +1,9 @@
 {
-    "color_and_hello": {
+    "pulumi": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
+            "pulumi": {
+                "pulumiversion": "3.150.0"
             }
         }
     }

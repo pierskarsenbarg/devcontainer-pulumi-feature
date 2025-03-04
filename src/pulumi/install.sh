@@ -34,4 +34,4 @@ echo "Pulumi Installed..."
 
 # whereis pulumi
 
-ls /root
+ls /root/bin

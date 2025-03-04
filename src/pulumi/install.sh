@@ -34,4 +34,6 @@ cp /root/.pulumi/bin/* /usr/bin
 
 export PATH=/root/.pulumi/bin:$PATH
 
+pulumi version
+
 # exec $SHELL

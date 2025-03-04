@@ -22,10 +22,10 @@ apt-get install curl -y
 echo "Installing Pulumi..."
 
 if [[ -z "${PULUMIVERSION}"]]; then
-    curl -fsSL https://get.pulumi.com | sh -s -- --install-root $_REMOTE_USER_HOME
+    curl -fsSL https://get.pulumi.com | sh -s -- 
 
 else
-    curl -fsSL https://get.pulumi.com | sh -s -- --install-root $_REMOTE_USER_HOME --version $PULUMIVERSION 
+    curl -fsSL https://get.pulumi.com | sh -s -- --version $PULUMIVERSION 
 fi
 
 echo "Pulumi Installed..."

@@ -30,4 +30,6 @@ fi
 
 echo "Pulumi Installed..."
 
+exec $SHELL
+
 whereis pulumi

@@ -30,8 +30,4 @@ fi
 
 echo "Pulumi Installed..."
 
-# export PATH=$PATH:/Users/piers/.pulumi/bin
-
-# whereis pulumi
-
-ls /root/bin
+export PATH=$PATH:$PULUMI_HOME/bin

@@ -29,3 +29,5 @@ else
 fi
 
 echo "Pulumi Installed..."
+
+whereis pulumi

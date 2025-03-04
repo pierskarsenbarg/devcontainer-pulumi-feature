@@ -30,6 +30,8 @@ fi
 
 echo "Pulumi Installed..."
 
+echo "Restarting shell..."
+
 exec $SHELL
 
 whereis pulumi

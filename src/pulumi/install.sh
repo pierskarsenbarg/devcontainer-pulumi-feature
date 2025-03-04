@@ -30,8 +30,8 @@ fi
 
 echo "Pulumi Installed..."
 
-echo "Restarting shell..."
+# export PATH=$PATH:/Users/piers/.pulumi/bin
 
-exec $SHELL
+# whereis pulumi
 
-whereis pulumi
+ls /root

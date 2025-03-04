@@ -30,4 +30,7 @@ fi
 
 echo "Pulumi Installed..."
 
-export PATH=$PATH:$PULUMI_HOME/bin
+cp /root/.pulumi/bin/* /usr/bin
+
+echo "PATH=/root/.pulumi/bin:$PATH" >> /etc/profile
+source /etc/profile
